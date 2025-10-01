@@ -1276,7 +1276,7 @@ function Library.new(config)
 			SectionAutoUI.Parent = Section
 			SectionAutoUI.HorizontalAlignment = Enum.HorizontalAlignment.Center
 			SectionAutoUI.SortOrder = Enum.SortOrder.LayoutOrder
-			SectionAutoUI.Padding = UDim.new(0, 3.198235998751)
+			SectionAutoUI.Padding = UDim.new(0, 3.198998751351)
 
 			SectionAutoUI:GetPropertyChangedSignal('AbsoluteContentSize'):Connect(function()
 				Twen:Create(Section,TweenInfo.new(0.1),{
