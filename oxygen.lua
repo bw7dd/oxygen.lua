@@ -377,7 +377,7 @@ function Library.new(config)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = ScreenGui
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(7, 7, 7)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 	MainFrame.BackgroundTransparency = 1
 	MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	MainFrame.BorderSizePixel = 0
@@ -1276,7 +1276,7 @@ function Library.new(config)
 			SectionAutoUI.Parent = Section
 			SectionAutoUI.HorizontalAlignment = Enum.HorizontalAlignment.Center
 			SectionAutoUI.SortOrder = Enum.SortOrder.LayoutOrder
-			SectionAutoUI.Padding = UDim.new(0, 3)
+			SectionAutoUI.Padding = UDim.new(0, 10)
 
 			SectionAutoUI:GetPropertyChangedSignal('AbsoluteContentSize'):Connect(function()
 				Twen:Create(Section,TweenInfo.new(0.1),{
