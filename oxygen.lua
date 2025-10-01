@@ -377,7 +377,7 @@ function Library.new(config)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = ScreenGui
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(14, 14, 14)
 	MainFrame.BackgroundTransparency = 1
 	MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	MainFrame.BorderSizePixel = 0
